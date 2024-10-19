@@ -34,9 +34,28 @@ h1 :hover{
 
 h2 {
     font-size: 15px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
     text-align: center;
+    margin-top: 10px;
+}
+
+.hbdlet{
+    font-size: 15px;
+    margin-right: 100px;
+    margin-left: 100px;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+.hbdlet1{
+    font-size: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
+    text-align: center;
+    margin-top: 30px;
+    color: pink;
+    
 }
 
 .nav ul {
@@ -79,7 +98,7 @@ h2 {
 }
 
 .contacts li {
-    margin: 15px ; /* Add spacing between items */
+    margin: 15px ; 
     margin-top: 10px;
   
   }
@@ -98,6 +117,7 @@ h2 {
     align-items: center;
     gap: 20px; 
     padding: 20px;
+    flex-wrap: wrap;
 }
 
 .pics0 {
@@ -126,5 +146,14 @@ h2 {
 
 .here{
     margin-top: 30px;
+    margin-bottom: 50px;
     text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+.tab{
+    display: inline-block;
+    margin-left: 2000px;
 }
